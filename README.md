@@ -30,8 +30,10 @@ High temperature (2372 F) type K thermocouple
 
 Wiring:
 
-- Pin-Out:      Device          PI
+- Pin-Out:
 
+		Device          PI
+		----------      -------
 		RPLCD VCC:	5V
 		RPLCD GND:	GND
 		RPLCD SDA:	GPIO 2
