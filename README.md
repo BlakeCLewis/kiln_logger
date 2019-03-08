@@ -117,6 +117,6 @@ Wiring:
 
 
 - access data:
-
-		sqlite3 /home/pi/kilnlog.sqlite3
-		select * from firelog where runid=32 order by datime asc;
+		ssh pi@<pi ipaddres>
+		sqlite3 kilnlog.sqlite3
+		select * from firelog where runid=420 order by datime asc;
