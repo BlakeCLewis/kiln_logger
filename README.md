@@ -1,24 +1,31 @@
 # kiln_logger
-raspberry pi kiln logging
 
+Heat is dangerous! Evaluate the risk and make your go/no-go decision!
 
-Electricity and heat are dangerous! Evaluate the risk and make your go/no-go decision!
+Parts and pieces:
 
+- Raspberry pi: any of these will work, $10 Zero W is cheapest
 
-Raspberry pi 3b
-- 20x4 LCD w/ i2c backpack
+		https://www.adafruit.com/product/3775
 
-		https://www.amazon.com/gp/product/B01GPUMP9C/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1
+		https://www.adafruit.com/product/3055
+
+		https://www.adafruit.com/product/4027
+
+		https://www.adafruit.com/product/3400
 
 - MAX31856 thermocouple module
 
 		https://www.adafruit.com/product/3263
 
+- 20x4 LCD w/ i2c backpack
+
+		https://www.amazon.com/gp/product/B01GPUMP9C/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1
+
+
 High temperature (2372 F) type K thermocouple
 
 		https://www.amazon.com/Temperature-Thermocouple-Ceramic-connector-CR-06/dp/B0713X6XG3/ref=sr_1_25?keywords=k-type&qid=1551683054&s=gateway&sr=8-25
-
-
 
 
 Stuff to get it to work:
