@@ -25,9 +25,11 @@ Parts and pieces:
 - 20x4 LCD w/ i2c backpack
 
 		https://www.amazon.com/gp/product/B01GPUMP9C/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1
+		or
+		https://www.adafruit.com/product/198
+		https://www.adafruit.com/product/292
 
-
-High temperature (2372 F) type K thermocouple
+- High temperature (2372 F) type K thermocouple
 
 		https://www.amazon.com/Temperature-Thermocouple-Ceramic-connector-CR-06/dp/B0713X6XG3/ref=sr_1_25?keywords=k-type&qid=1551683054&s=gateway&sr=8-25
 
