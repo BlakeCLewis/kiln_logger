@@ -28,9 +28,9 @@ High temperature (2372 F) type K thermocouple
 		https://www.amazon.com/Temperature-Thermocouple-Ceramic-connector-CR-06/dp/B0713X6XG3/ref=sr_1_25?keywords=k-type&qid=1551683054&s=gateway&sr=8-25
 
 
-Stuff to get it to work:
+Wiring:
 
-- Pin-Out:
+- Pin-Out:      Device          PI
 
 		RPLCD VCC:	5V
 		RPLCD GND:	GND
