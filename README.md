@@ -18,6 +18,10 @@ Parts and pieces:
 
 		https://www.adafruit.com/product/3263
 
+- Female <=> Female jumper wires
+
+		https://www.adafruit.com/product/266
+
 - 20x4 LCD w/ i2c backpack
 
 		https://www.amazon.com/gp/product/B01GPUMP9C/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1
