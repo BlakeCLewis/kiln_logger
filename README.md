@@ -14,6 +14,10 @@ Parts and pieces:
 
 		https://www.adafruit.com/product/3400
 
+- MicroSD card
+
+		https://www.amazon.com/SanDisk-microSDHC-Standard-Packaging-SDSQUNC-032G-GN6MA/dp/B010Q57T02/ref=sr_1_14?keywords=micro+sd&qid=1552005480&s=gateway&sr=8-14
+
 - MAX31856 thermocouple module
 
 		https://www.adafruit.com/product/3263
@@ -22,7 +26,7 @@ Parts and pieces:
 
 		https://www.adafruit.com/product/266
 
-- 20x4 LCD w/ i2c backpack
+- 20x4 LCD w/ i2c backpack: optional, it will print to console too.
 
 		https://www.amazon.com/gp/product/B01GPUMP9C/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1
 		or
@@ -33,6 +37,14 @@ Parts and pieces:
 
 		https://www.amazon.com/Temperature-Thermocouple-Ceramic-connector-CR-06/dp/B0713X6XG3/ref=sr_1_25?keywords=k-type&qid=1551683054&s=gateway&sr=8-25
 
+
+- Download Raspbien Stretch and write it to the MicroSD
+
+		https://www.raspberrypi.org/downloads/raspbian/
+		boot it up
+		expand the partition, it ask on first boot
+		configure network
+		update software 'apt-get update' and 'apt-get upgrade'
 
 Wiring:
 
@@ -53,10 +65,9 @@ Wiring:
 		MAX31856 SCK:	GPIO 11
 
 
-- Install PiLN files in /home and create log directory:
+- Install project files:
 
 		git clone git@github.com:BlakeCLewis/kiln_logger.git
-		mkdir ./log
 
 - Install sqlite3:
 
@@ -65,7 +76,7 @@ Wiring:
 - Configure raspberry pi interfaces:
 
 		sudo raspi-config
-		#enable interfaces ic2 & spi
+		#enable interfaces ssh, ic2 & spi
 
 - Instal RPLCD for the 20x4 lcd:
 
@@ -88,6 +99,12 @@ Wiring:
 		cd ~/kiln_logger
 		python3 display.py
 		python3 max31856_test.py
+- create the database:
+
+		sqlite3 ~/kiln_logger.sqlite3
+		CREATE TABLE firelog(RunID number, datime datetime, t number);
+		.schema
+		.exit
 
 - run the logger
 
