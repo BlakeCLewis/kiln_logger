@@ -4,7 +4,7 @@ Heat is dangerous! Evaluate the risk and make your go/no-go decision!
 
 Parts and pieces:
 
-- Raspberry pi: any of these will work, $10 Zero W is cheapest
+- Raspberry pi: any of these will work, $10 Zero W is cheapest, if you are running w/o  a desktop it will suffice
 
 		https://www.adafruit.com/product/3775
 
@@ -14,15 +14,15 @@ Parts and pieces:
 
 		https://www.adafruit.com/product/3400
 
-- MicroSD card
+- MicroSD card: you will need a way to write the image, e.g. usb adapter
 
 		https://www.amazon.com/SanDisk-microSDHC-Standard-Packaging-SDSQUNC-032G-GN6MA/dp/B010Q57T02/ref=sr_1_14?keywords=micro+sd&qid=1552005480&s=gateway&sr=8-14
 
-- MAX31856 thermocouple module
+- MAX31856 thermocouple module:
 
 		https://www.adafruit.com/product/3263
 
-- Female <=> Female jumper wires
+- Female <=> Female jumper wires:
 
 		https://www.adafruit.com/product/266
 
@@ -33,12 +33,12 @@ Parts and pieces:
 		https://www.adafruit.com/product/198
 		https://www.adafruit.com/product/292
 
-- High temperature (2372 F) type K thermocouple
+- High temperature (2372 F) type K thermocouple:
 
 		https://www.amazon.com/Temperature-Thermocouple-Ceramic-connector-CR-06/dp/B0713X6XG3/ref=sr_1_25?keywords=k-type&qid=1551683054&s=gateway&sr=8-25
 
 
-- Download Raspbien Stretch and write it to the MicroSD
+- Download Raspbien Stretch and write it to the MicroSD:
 
 		https://www.raspberrypi.org/downloads/raspbian/
 		boot it up
@@ -112,6 +112,7 @@ Wiring:
 		./logger.py -i <intger Run_ID> -s <interval in seconds>
 
 
-- access data
+- access data:
+
 		sqlite3 /home/pi/kilnlog.sqlite3
 		select * from firelog where runid=32 order by datime asc;
