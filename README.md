@@ -32,8 +32,8 @@ Wiring:
 
 - Pin-Out:
 
-		Device          PI
-		----------      -------
+		Device		PI
+		----------	-------
 		RPLCD VCC:	5V
 		RPLCD GND:	GND
 		RPLCD SDA:	GPIO 2
