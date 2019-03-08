@@ -2,7 +2,7 @@
 
 Heat is dangerous! Evaluate the risk and make your go/no-go decision!
 
-Parts and pieces:
+Parts and pieces: I think it adds up to ~ $70 and some shipping.
 
 - Raspberry pi: any of these will work, $10 Zero W is cheapest, if you are running w/o  a desktop it will suffice
 
@@ -14,7 +14,11 @@ Parts and pieces:
 
 		https://www.adafruit.com/product/3400
 
-- MicroSD card: you will need a way to write the image, e.g. usb adapter
+- 5V power supply: for the Pi
+
+		https://www.adafruit.com/product/1995
+
+- MicroSD card: you will also need a way to write the image, e.g. usb adapter
 
 		https://www.amazon.com/SanDisk-microSDHC-Standard-Packaging-SDSQUNC-032G-GN6MA/dp/B010Q57T02/ref=sr_1_14?keywords=micro+sd&qid=1552005480&s=gateway&sr=8-14
 
