@@ -2,7 +2,7 @@
 
 Heat is dangerous! Evaluate the risk and make your go/no-go decision!
 
-I have had issues with the thermocouple chip getting too hot when air temp is above 90F. It is in a metal box, 2' away from the kiln. When the kiln was with in 30C of cone 6 it started under reading. I will add a fan to cool the electronics.
+I have had issues with the thermocouple chip getting too hot when air temp is above 90F. It is in a metal box, 2' away from the kiln. Last firning, when the kiln was within 30C of cone 6, it started under reading. I added a computer muffin fan to cool the electronics.
 
 Parts and pieces: I think it adds up to ~ $70 and some shipping.
 
