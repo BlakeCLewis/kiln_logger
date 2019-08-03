@@ -54,6 +54,8 @@ Parts and pieces: I think it adds up to ~ $70 and some shipping.
 
 Wiring:
 
+- fritz: 'https://raw.githubusercontent.com/BlakeCLewis/kiln_logger/master/logger_bb.png'
+
 - Pin-Out:
 
 		Device	PI
