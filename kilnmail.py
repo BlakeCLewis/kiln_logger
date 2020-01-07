@@ -77,10 +77,11 @@ class kiln_state(itp,otp):
             if self.high < itp:
                 self.high = itp
                 self.hightime = time.time
-            if abs(trending()) < 4 and (self.tp(0)-self.tp(-1)) < 0 :
+            trend = _trending()
+            if abs(trend) < 4 and (self.tp(0)-self.tp(-1)) < 0 :
                 self.state = 'HOLD'
                 #notify
-            elif (trending() < -4) and (self.tp(0) - self.tp(-1) < 0):
+            elif (trend < -4) and (self.tp(0) - self.tp(-1) < 0):
                 self.state = 'FALL'
                 #notify
             
@@ -92,7 +93,7 @@ class kiln_state(itp,otp):
                 self.state = 'FALL'
                 #notify
 
-        else self.state == 'FALL'
+        elif self.state == 'FALL'
             #need to turn this into minutes
             if 8 < (self.hightime - self.ti(0)) 
                     and (trending() < -10 
@@ -112,4 +113,5 @@ if __name__=='__main__':
     from collections import deque
     #test msg
     send_email('rpi.kiln allgood','this is not the kiln you are looking for')
+-
 
